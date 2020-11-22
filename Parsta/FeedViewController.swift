@@ -19,7 +19,8 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        myRefreshControl.addTarget(self, action: #selector(loadPost), for: .valueChanged)
+        tableView.refreshControl = myRefreshControl
         tableView.delegate = self
         tableView.dataSource = self
         // Do any additional setup after loading the view.
@@ -29,8 +30,16 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        
+        loadPost()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        loadPost()
+    }
+    
+    @objc func loadPost() {
         let query = PFQuery(className: "Posts")
+        query.addDescendingOrder("createdAt")
         query.includeKey("author")
         query.limit = 20
         query.findObjectsInBackground { (posts, error) in
@@ -39,8 +48,11 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
                 self.tableView.reloadData()
             }
         }
-     
+        
+        self.tableView.reloadData()
+        self.myRefreshControl.endRefreshing()
     }
+
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return posts.count
