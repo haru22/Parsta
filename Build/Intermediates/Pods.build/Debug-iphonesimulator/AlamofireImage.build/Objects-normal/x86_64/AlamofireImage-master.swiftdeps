@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "dfaa00aa0e565dd057f4a1801ae67ae3"
+build_time: [1606021423, 698162000]
+inputs:
+  "/Users/haruna/Documents/iOSdev/Parsta/Pods/AlamofireImage/Source/AFIError.swift": [1606009801, 167325800]
+  "/Users/haruna/Documents/iOSdev/Parsta/Pods/AlamofireImage/Source/Image.swift": [1606009801, 167519875]
+  "/Users/haruna/Documents/iOSdev/Parsta/Pods/AlamofireImage/Source/ImageCache.swift": [1606009801, 166886426]
+  "/Users/haruna/Documents/iOSdev/Parsta/Pods/AlamofireImage/Source/ImageDownloader.swift": [1606009801, 168049091]
+  "/Users/haruna/Documents/iOSdev/Parsta/Pods/AlamofireImage/Source/ImageFilter.swift": [1606009801, 168939666]
+  "/Users/haruna/Documents/iOSdev/Parsta/Pods/AlamofireImage/Source/Request+AlamofireImage.swift": [1606009801, 168709024]
+  "/Users/haruna/Documents/iOSdev/Parsta/Pods/AlamofireImage/Source/UIButton+AlamofireImage.swift": [1606009801, 167742093]
+  "/Users/haruna/Documents/iOSdev/Parsta/Pods/AlamofireImage/Source/UIImage+AlamofireImage.swift": [1606009801, 167120207]
+  "/Users/haruna/Documents/iOSdev/Parsta/Pods/AlamofireImage/Source/UIImageView+AlamofireImage.swift": [1606009801, 168398096]

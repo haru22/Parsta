@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "67d86e8ab4e67c43c198eee0a7d7c93e"
+build_time: [1606021426, 58409000]
+inputs:
+  "/Users/haruna/Documents/iOSdev/Parsta/Parsta/LoginViewController.swift": [1606008678, 558962894]
+  "/Users/haruna/Documents/iOSdev/Parsta/Parsta/AppDelegate.swift": [1605942007, 665879430]
+  "/Users/haruna/Documents/iOSdev/Parsta/Parsta/FeedViewController.swift": [1606021271, 975091582]
+  "/Users/haruna/Documents/iOSdev/Parsta/Parsta/SceneDelegate.swift": [1605940243, 501597909]
+  "/Users/haruna/Documents/iOSdev/Parsta/Parsta/CaptureViewController.swift": [1606012615, 641037824]
+  "/Users/haruna/Documents/iOSdev/Parsta/Parsta/PostCell.swift": [1606013592, 196982782]
