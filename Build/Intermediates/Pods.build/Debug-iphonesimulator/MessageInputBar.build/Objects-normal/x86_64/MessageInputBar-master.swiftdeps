@@ -1,0 +1,15 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "6e2a8a95ce4f0118f3801426c1fb88f9"
+build_time: [1606554791, 636351000]
+inputs:
+  "/Users/haruna/Documents/iOSdev/Parsta/Pods/MessageInputBar/Sources/Controls/InputBarButtonItem.swift": [1606542772, 71944914]
+  "/Users/haruna/Documents/iOSdev/Parsta/Pods/MessageInputBar/Sources/Protocols/InputItem.swift": [1606542772, 74407822]
+  "/Users/haruna/Documents/iOSdev/Parsta/Pods/MessageInputBar/Sources/Protocols/InputPlugin.swift": [1606542772, 73870651]
+  "/Users/haruna/Documents/iOSdev/Parsta/Pods/MessageInputBar/Sources/Views/InputStackView.swift": [1606542772, 72557480]
+  "/Users/haruna/Documents/iOSdev/Parsta/Pods/MessageInputBar/Sources/Views/InputTextView.swift": [1606542772, 72917232]
+  "/Users/haruna/Documents/iOSdev/Parsta/Pods/MessageInputBar/Sources/MessageInputBar.swift": [1606542772, 70165986]
+  "/Users/haruna/Documents/iOSdev/Parsta/Pods/MessageInputBar/Sources/Protocols/MessageInputBarDelegate.swift": [1606542772, 74137055]
+  "/Users/haruna/Documents/iOSdev/Parsta/Pods/MessageInputBar/Sources/Models/NSConstraintLayoutSet.swift": [1606542772, 70631027]
+  "/Users/haruna/Documents/iOSdev/Parsta/Pods/MessageInputBar/Sources/Extensions/NSMutableAttributedString+Extensions.swift": [1606542772, 71320403]
+  "/Users/haruna/Documents/iOSdev/Parsta/Pods/MessageInputBar/Sources/Views/SeparatorLine.swift": [1606542772, 73322661]
+  "/Users/haruna/Documents/iOSdev/Parsta/Pods/MessageInputBar/Sources/Extensions/UIView+Extensions.swift": [1606542772, 71094234]

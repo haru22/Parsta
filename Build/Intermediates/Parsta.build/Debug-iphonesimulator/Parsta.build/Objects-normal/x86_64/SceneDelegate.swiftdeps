@@ -14,17 +14,29 @@ provides-dynamic-lookup:
 - "sceneWillResignActive"
 - "window"
 depends-top-level:
+- !private "!="
+- "AssignmentPrecedence"
 - "CastingPrecedence"
+- !private "PFUser"
 - "SceneDelegate"
+- !private "StringLiteralType"
 - "UIResponder"
 - "UIScene"
 - "UISceneSession"
+- !private "UIStoryboard"
 - "UIWindow"
 - !private "UIWindowScene"
 - "UIWindowSceneDelegate"
 depends-member:
+- !private ["So15CALayerDelegateP", "rootViewController"]
 - ["s7CVarArgP", "ConnectionOptions"]
+- !private ["s7CVarArgP", "PFUser"]
+- !private ["s7CVarArgP", "UIStoryboard"]
 - ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "current"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiateViewController"]
+- !private ["s7CVarArgP", "rootViewController"]
 - ["s7CVarArgP", "scene"]
 - ["s7CVarArgP", "sceneDidBecomeActive"]
 - ["s7CVarArgP", "sceneDidDisconnect"]
@@ -36,7 +48,13 @@ depends-member:
 - ["s7CVarArgP", "window"]
 - ["s7CVarArgP", "windowScene"]
 - ["s28CustomDebugStringConvertibleP", "ConnectionOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "PFUser"]
+- !private ["s28CustomDebugStringConvertibleP", "UIStoryboard"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "rootViewController"]
 - ["s28CustomDebugStringConvertibleP", "scene"]
 - ["s28CustomDebugStringConvertibleP", "sceneDidBecomeActive"]
 - ["s28CustomDebugStringConvertibleP", "sceneDidDisconnect"]
@@ -48,7 +66,13 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "window"]
 - ["s28CustomDebugStringConvertibleP", "windowScene"]
 - ["s23CustomStringConvertibleP", "ConnectionOptions"]
+- !private ["s23CustomStringConvertibleP", "PFUser"]
+- !private ["s23CustomStringConvertibleP", "UIStoryboard"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiateViewController"]
+- !private ["s23CustomStringConvertibleP", "rootViewController"]
 - ["s23CustomStringConvertibleP", "scene"]
 - ["s23CustomStringConvertibleP", "sceneDidBecomeActive"]
 - ["s23CustomStringConvertibleP", "sceneDidDisconnect"]
@@ -60,7 +84,13 @@ depends-member:
 - ["s23CustomStringConvertibleP", "window"]
 - ["s23CustomStringConvertibleP", "windowScene"]
 - ["SQ", "ConnectionOptions"]
+- !private ["SQ", "PFUser"]
+- !private ["SQ", "UIStoryboard"]
 - ["SQ", ""]
+- !private ["SQ", "current"]
+- !private ["SQ", "init"]
+- !private ["SQ", "instantiateViewController"]
+- !private ["SQ", "rootViewController"]
 - ["SQ", "scene"]
 - ["SQ", "sceneDidBecomeActive"]
 - ["SQ", "sceneDidDisconnect"]
@@ -72,7 +102,13 @@ depends-member:
 - ["SQ", "window"]
 - ["SQ", "windowScene"]
 - ["SH", "ConnectionOptions"]
+- !private ["SH", "PFUser"]
+- !private ["SH", "UIStoryboard"]
 - ["SH", ""]
+- !private ["SH", "current"]
+- !private ["SH", "init"]
+- !private ["SH", "instantiateViewController"]
+- !private ["SH", "rootViewController"]
 - ["SH", "scene"]
 - ["SH", "sceneDidBecomeActive"]
 - ["SH", "sceneDidDisconnect"]
@@ -83,12 +119,18 @@ depends-member:
 - ["SH", "stateRestorationActivityForScene"]
 - ["SH", "window"]
 - ["SH", "windowScene"]
+- !private ["So8NSCodingP", "rootViewController"]
 - ["So8NSObjectC", "ConnectionOptions"]
+- !private ["So8NSObjectC", "PFUser"]
 - ["So8NSObjectC", "UIScene"]
 - ["So8NSObjectC", "UISceneSession"]
+- !private ["So8NSObjectC", "UIStoryboard"]
 - ["So8NSObjectC", "UIWindow"]
 - !private ["So8NSObjectC", "UIWindowScene"]
+- !private ["So8NSObjectC", "current"]
 - ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instantiateViewController"]
+- !private ["So8NSObjectC", "rootViewController"]
 - ["So8NSObjectC", "scene"]
 - ["So8NSObjectC", "sceneDidBecomeActive"]
 - ["So8NSObjectC", "sceneDidDisconnect"]
@@ -100,7 +142,13 @@ depends-member:
 - ["So8NSObjectC", "window"]
 - ["So8NSObjectC", "windowScene"]
 - ["So8NSObjectP", "ConnectionOptions"]
+- !private ["So8NSObjectP", "PFUser"]
+- !private ["So8NSObjectP", "UIStoryboard"]
 - ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "current"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "instantiateViewController"]
+- !private ["So8NSObjectP", "rootViewController"]
 - ["So8NSObjectP", "scene"]
 - ["So8NSObjectP", "sceneDidBecomeActive"]
 - ["So8NSObjectP", "sceneDidDisconnect"]
@@ -111,8 +159,13 @@ depends-member:
 - ["So8NSObjectP", "stateRestorationActivityForScene"]
 - ["So8NSObjectP", "window"]
 - ["So8NSObjectP", "windowScene"]
+- !private ["So8PFObjectC", "current"]
+- !private ["So13PFSubclassingP", "current"]
+- !private ["So6PFUserC", "current"]
+- !private ["6Parsta13SceneDelegateC", "PFUser"]
 - ["6Parsta13SceneDelegateC", "UIScene"]
 - ["6Parsta13SceneDelegateC", "UISceneSession"]
+- !private ["6Parsta13SceneDelegateC", "UIStoryboard"]
 - ["6Parsta13SceneDelegateC", "UIWindow"]
 - !private ["6Parsta13SceneDelegateC", "UIWindowScene"]
 - ["6Parsta13SceneDelegateC", "deinit"]
@@ -127,8 +180,20 @@ depends-member:
 - ["6Parsta13SceneDelegateC", "stateRestorationActivityForScene"]
 - ["6Parsta13SceneDelegateC", "window"]
 - ["6Parsta13SceneDelegateC", "windowScene"]
+- !private ["So29UIAccessibilityIdentificationP", "rootViewController"]
+- !private ["So12UIAppearanceP", "rootViewController"]
+- !private ["So21UIAppearanceContainerP", "rootViewController"]
+- !private ["So17UICoordinateSpaceP", "rootViewController"]
+- !private ["So13UIDynamicItemP", "rootViewController"]
+- !private ["So18UIFocusEnvironmentP", "rootViewController"]
+- !private ["So11UIFocusItemP", "rootViewController"]
+- !private ["So20UIFocusItemContainerP", "rootViewController"]
+- !private ["So24UILargeContentViewerItemP", "rootViewController"]
 - ["So30UIPasteConfigurationSupportingP", "ConnectionOptions"]
+- !private ["So30UIPasteConfigurationSupportingP", "PFUser"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIStoryboard"]
 - ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "rootViewController"]
 - ["So30UIPasteConfigurationSupportingP", "scene"]
 - ["So30UIPasteConfigurationSupportingP", "sceneDidBecomeActive"]
 - ["So30UIPasteConfigurationSupportingP", "sceneDidDisconnect"]
@@ -140,12 +205,15 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "window"]
 - ["So30UIPasteConfigurationSupportingP", "windowScene"]
 - ["So11UIResponderC", "ConnectionOptions"]
+- !private ["So11UIResponderC", "PFUser"]
 - ["So11UIResponderC", "UIScene"]
 - ["So11UIResponderC", "UISceneSession"]
+- !private ["So11UIResponderC", "UIStoryboard"]
 - ["So11UIResponderC", "UIWindow"]
 - !private ["So11UIResponderC", "UIWindowScene"]
 - ["So11UIResponderC", ""]
 - ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "rootViewController"]
 - ["So11UIResponderC", "scene"]
 - ["So11UIResponderC", "sceneDidBecomeActive"]
 - ["So11UIResponderC", "sceneDidDisconnect"]
@@ -157,7 +225,10 @@ depends-member:
 - ["So11UIResponderC", "window"]
 - ["So11UIResponderC", "windowScene"]
 - ["So30UIResponderStandardEditActionsP", "ConnectionOptions"]
+- !private ["So30UIResponderStandardEditActionsP", "PFUser"]
+- !private ["So30UIResponderStandardEditActionsP", "UIStoryboard"]
 - ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "rootViewController"]
 - ["So30UIResponderStandardEditActionsP", "scene"]
 - ["So30UIResponderStandardEditActionsP", "sceneDidBecomeActive"]
 - ["So30UIResponderStandardEditActionsP", "sceneDidDisconnect"]
@@ -169,6 +240,8 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "window"]
 - ["So30UIResponderStandardEditActionsP", "windowScene"]
 - ["So7UISceneC", "ConnectionOptions"]
+- !private ["So15UISceneDelegateP", "PFUser"]
+- !private ["So15UISceneDelegateP", "UIStoryboard"]
 - ["So15UISceneDelegateP", ""]
 - ["So15UISceneDelegateP", "scene"]
 - ["So15UISceneDelegateP", "sceneDidBecomeActive"]
@@ -180,8 +253,14 @@ depends-member:
 - ["So15UISceneDelegateP", "stateRestorationActivityForScene"]
 - ["So15UISceneDelegateP", "window"]
 - ["So15UISceneDelegateP", "windowScene"]
+- !private ["So12UIStoryboardC", "init"]
+- !private ["So12UIStoryboardC", "instantiateViewController"]
+- !private ["So18UITraitEnvironmentP", "rootViewController"]
 - ["So23UIUserActivityRestoringP", "ConnectionOptions"]
+- !private ["So23UIUserActivityRestoringP", "PFUser"]
+- !private ["So23UIUserActivityRestoringP", "UIStoryboard"]
 - ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "rootViewController"]
 - ["So23UIUserActivityRestoringP", "scene"]
 - ["So23UIUserActivityRestoringP", "sceneDidBecomeActive"]
 - ["So23UIUserActivityRestoringP", "sceneDidDisconnect"]
@@ -192,6 +271,10 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "stateRestorationActivityForScene"]
 - ["So23UIUserActivityRestoringP", "window"]
 - ["So23UIUserActivityRestoringP", "windowScene"]
+- !private ["So6UIViewC", "rootViewController"]
+- !private ["So8UIWindowC", "rootViewController"]
+- !private ["So21UIWindowSceneDelegateP", "PFUser"]
+- !private ["So21UIWindowSceneDelegateP", "UIStoryboard"]
 - ["So21UIWindowSceneDelegateP", ""]
 - ["So21UIWindowSceneDelegateP", "scene"]
 - ["So21UIWindowSceneDelegateP", "sceneDidBecomeActive"]
@@ -204,7 +287,13 @@ depends-member:
 - ["So21UIWindowSceneDelegateP", "window"]
 - ["So21UIWindowSceneDelegateP", "windowScene"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "ConnectionOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PFUser"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIStoryboard"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "current"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rootViewController"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "scene"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "sceneDidBecomeActive"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "sceneDidDisconnect"]
@@ -216,7 +305,13 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "window"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "windowScene"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ConnectionOptions"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PFUser"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIStoryboard"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "current"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "instantiateViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "rootViewController"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scene"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sceneDidBecomeActive"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sceneDidDisconnect"]
@@ -227,24 +322,44 @@ depends-member:
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "stateRestorationActivityForScene"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "window"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "windowScene"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "rootViewController"]
 depends-nominal:
+- !private "So15CALayerDelegateP"
 - "s7CVarArgP"
 - "s28CustomDebugStringConvertibleP"
 - "s23CustomStringConvertibleP"
 - "SQ"
 - "SH"
+- !private "So8NSCodingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
+- !private "So8PFObjectC"
+- !private "So13PFSubclassingP"
+- !private "So6PFUserC"
 - "6Parsta13SceneDelegateC"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
 - "So7UISceneC"
 - "So15UISceneDelegateP"
+- !private "So12UIStoryboardC"
+- !private "So18UITraitEnvironmentP"
 - "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- !private "So8UIWindowC"
 - "So21UIWindowSceneDelegateP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
@@ -263,10 +378,12 @@ depends-external:
 - "/Users/haruna/Documents/iOSdev/Parsta/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/haruna/Documents/iOSdev/Parsta/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/haruna/Documents/iOSdev/Parsta/Build/Products/Debug-iphonesimulator/MessageInputBar/MessageInputBar.framework/Modules/MessageInputBar.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/haruna/Documents/iOSdev/Parsta/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFACL.h"
 - "/Users/haruna/Documents/iOSdev/Parsta/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-umbrella.h"
 - "/Users/haruna/Documents/iOSdev/Parsta/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
 - "/Users/haruna/Documents/iOSdev/Parsta/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/Parse-umbrella.h"
+- "/Users/haruna/Documents/iOSdev/Parsta/Build/Products/Debug-iphonesimulator/MessageInputBar/MessageInputBar.framework/Headers/MessageInputBar-umbrella.h"
 - "/Users/haruna/Documents/iOSdev/Parsta/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
 - "/Users/haruna/Documents/iOSdev/Parsta/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFGeneric.h"
 - "/Users/haruna/Documents/iOSdev/Parsta/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFCloud+Deprecated.h"
@@ -316,12 +433,14 @@ depends-external:
 - "/Users/haruna/Documents/iOSdev/Parsta/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFFileObject.h"
 - "/Users/haruna/Documents/iOSdev/Parsta/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFProduct.h"
 - "/Users/haruna/Documents/iOSdev/Parsta/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/haruna/Documents/iOSdev/Parsta/Build/Products/Debug-iphonesimulator/MessageInputBar/MessageInputBar.framework/Headers/MessageInputBar-Swift.h"
 - "/Users/haruna/Documents/iOSdev/Parsta/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFFileUploadResult.h"
 - "/Users/haruna/Documents/iOSdev/Parsta/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFGeoPoint.h"
 - "/Users/haruna/Documents/iOSdev/Parsta/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFQuery.h"
 - "/Users/haruna/Documents/iOSdev/Parsta/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/module.modulemap"
 - "/Users/haruna/Documents/iOSdev/Parsta/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Users/haruna/Documents/iOSdev/Parsta/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Modules/module.modulemap"
+- "/Users/haruna/Documents/iOSdev/Parsta/Build/Products/Debug-iphonesimulator/MessageInputBar/MessageInputBar.framework/Modules/module.modulemap"
 - "/Users/haruna/Documents/iOSdev/Parsta/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
@@ -338,4 +457,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/StoreKit.framework/Headers/StoreKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "127201c8c716b7030f8c10092b30daff"
+interface-hash: "50dd51cf586d0709eaf1592662877ad7"

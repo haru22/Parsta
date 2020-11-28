@@ -8,6 +8,7 @@ target 'Parsta' do
   # Add additional dependencies
   pod 'Parse'
   pod 'AlamofireImage'
+  pod 'MessageInputBar'
   # Pods for Parsta
 
 

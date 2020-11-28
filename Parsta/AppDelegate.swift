@@ -24,6 +24,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 $0.server = "https://parseapi.back4app.com"
         }
         Parse.initialize(with: parseConfig)
+        
+        // if pfuser is logged in go to feed view controller
+        
         return true
     }
 
